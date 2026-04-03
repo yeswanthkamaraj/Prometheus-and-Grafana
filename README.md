@@ -14,8 +14,8 @@ Monitoring is the process of keeping an eye on these metrics over time to unders
 ## 🏠 Prometheus Architecture
 - The architecture of Prometheus is designed to be highly flexible, scalable, and modular.
 - It consists of several core components, each responsible for a specific aspect of the monitoring process.
+<img width="831" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c7127bf-25fc-479d-8221-09bacb3a3aed" />
 
-![Prometheus Architecture](images/prometheus-architecture.gif)
 
 ### 🔥 Prometheus Server
 - Prometheus server is the core of the monitoring system. It is responsible for scraping metrics from various configured targets, storing them in its time-series database (TSDB), and serving queries through its HTTP API.
